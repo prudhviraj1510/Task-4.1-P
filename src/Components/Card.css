@@ -1,0 +1,26 @@
+.row {
+    display: grid;
+    grid-template-columns: repeat(4, 250px);
+    gap: 20px;
+  }
+  .column {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  .star {
+    margin-top: 15px;
+  }
+  .fa {
+    display: flex;
+    justify-content: center;
+  }
+
+  .susbscribe {
+    display: flex;
+    background-color: azure;
+    justify-content: space-evenly;
+    gap: 10px;
+  }
+  
